@@ -40,6 +40,10 @@ orjson>=3.9.0
 # Typing support (helps in bigger projects)
 pydantic>=2.5.0
 
+# API server
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+
 # App UI
 streamlit>=1.40.0
 python-docx>=1.1.2
