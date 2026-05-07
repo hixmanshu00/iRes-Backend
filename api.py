@@ -19,7 +19,8 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173", "http://localhost:4173", "http://127.0.0.1:5173",
                    "http://localhost:8080", "http://127.0.0.1:8080", "https://ires.hiowner00.workers.dev"],
-    allow_methods=["GET", "POST", "OPTIONS"],
+    allow_credentials=True,
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
