@@ -1,0 +1,10 @@
+.env
+.venv/
+__pycache__/
+*.pyc
+research_runs.db
+observability.log.jsonl
+exports/
+.DS_Store
+.claude/
+.streamlit/
